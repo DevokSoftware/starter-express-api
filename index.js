@@ -6,7 +6,7 @@ const request = require("request");
 const moment = require("moment-timezone");
 // const AWS = require("aws-sdk");
 // const s3 = new AWS.S3();
-// const fs = require("fs");
+const fs = require("fs");
 (path = require("path")), (filePath = path.join("/", "standings.json"));
 
 app.use(
@@ -70,10 +70,12 @@ app.get("/standings", async (req, res) => {
       }
     });
   } catch (err) {
+    console.log(err);
     console.log("File doesn't exists. Creating a new one...");
     // requestStandings().then((result) => {
     //   res.send(result);
     // });
+    res.send(null);
   }
 });
 

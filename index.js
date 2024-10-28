@@ -44,24 +44,31 @@ const requestOptions = {
 app.get("/standings", async (req, res) => {
   console.log("Requesting standings...");
   try {
-    await s3
-      .getObject({
-        Bucket: "cyclic-elated-tuxedo-mite-eu-central-1",
-        Key: "standings.json",
-      })
-      .promise()
-      .then((data) => {
-        const jsonFile = JSON.parse(data.Body);
-        const fileDate = moment(jsonFile.lastUpdate, "DD-MM-YYYY HH:mm:ss");
-        if (fileDate.add(1, "hour").isBefore(moment().tz("Europe/Lisbon"))) {
-          console.log("Updating Standings...");
-          requestStandings().then((result) => {
-            res.send(result);
-          });
-        } else {
-          res.send(jsonFile);
-        }
-      });
+    // HOST PROVIDER WHERE FILE WAS BEING STORED NO LONGER EXISTS
+    // await s3
+    //   .getObject({
+    //     Bucket: "cyclic-elated-tuxedo-mite-eu-central-1",
+    //     Key: "standings.json",
+    //   })
+    //   .promise()
+    //   .then((data) => {
+    //     const jsonFile = JSON.parse(data.Body);
+    //     const fileDate = moment(jsonFile.lastUpdate, "DD-MM-YYYY HH:mm:ss");
+    //     if (fileDate.add(1, "hour").isBefore(moment().tz("Europe/Lisbon"))) {
+    //       console.log("Updating Standings...");
+    //       requestStandings().then((result) => {
+    //         res.send(result);
+    //       });
+    //     } else {
+    //       res.send(jsonFile);
+    //     }
+    //   });
+    fs.readFile("standings.json", function (err, data) {
+      if (!err) {
+        const json = JSON.parse(data);
+        res.send(json);
+      }
+    });
   } catch (err) {
     console.log("File doesn't exists. Creating a new one...");
     requestStandings().then((result) => {
@@ -104,4 +111,4 @@ function requestStandings() {
 //     }
 //   });
 // });
-app.listen(process.env.PORT || 3001);
+// app.listen(process.env.PORT || 3001);

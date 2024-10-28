@@ -4,8 +4,8 @@ var cors = require("cors");
 const cron = require("node-cron");
 const request = require("request");
 const moment = require("moment-timezone");
-const AWS = require("aws-sdk");
-const s3 = new AWS.S3();
+// const AWS = require("aws-sdk");
+// const s3 = new AWS.S3();
 // const fs = require("fs");
 (path = require("path")), (filePath = path.join("/", "standings.json"));
 
@@ -71,9 +71,9 @@ app.get("/standings", async (req, res) => {
     });
   } catch (err) {
     console.log("File doesn't exists. Creating a new one...");
-    requestStandings().then((result) => {
-      res.send(result);
-    });
+    // requestStandings().then((result) => {
+    //   res.send(result);
+    // });
   }
 });
 
@@ -111,4 +111,4 @@ function requestStandings() {
 //     }
 //   });
 // });
-// app.listen(process.env.PORT || 3001);
+app.listen(process.env.PORT || 3001);

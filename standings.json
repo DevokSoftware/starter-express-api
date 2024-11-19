@@ -19,29 +19,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 5,
-        "win": 4,
-        "loss": 5
+        "rank": 4,
+        "win": 8,
+        "loss": 6
       },
       "division": {
         "name": "atlantic",
         "rank": 2,
-        "win": 4,
-        "loss": 5,
+        "win": 8,
+        "loss": 6,
         "gamesBehind": null
       },
       "win": {
         "home": 3,
         "away": 1,
-        "total": 4,
-        "percentage": "0.444",
+        "total": 8,
+        "percentage": "0.571",
         "lastTen": 4
       },
       "loss": {
         "home": 0,
         "away": 0,
-        "total": 5,
-        "percentage": "0.556",
+        "total": 6,
+        "percentage": "0.429",
         "lastTen": 0
       },
       "gamesBehind": null,
@@ -62,28 +62,28 @@
       "conference": {
         "name": "east",
         "rank": 2,
-        "win": 9,
-        "loss": 2
+        "win": 11,
+        "loss": 3
       },
       "division": {
         "name": "atlantic",
         "rank": 1,
-        "win": 9,
-        "loss": 2,
+        "win": 11,
+        "loss": 3,
         "gamesBehind": "0.5"
       },
       "win": {
         "home": 3,
         "away": 1,
-        "total": 9,
-        "percentage": "0.818",
+        "total": 11,
+        "percentage": "0.786",
         "lastTen": 4
       },
       "loss": {
         "home": 0,
         "away": 1,
-        "total": 2,
-        "percentage": "0.182",
+        "total": 3,
+        "percentage": "0.214",
         "lastTen": 1
       },
       "gamesBehind": "0.5",
@@ -103,29 +103,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 13,
+        "rank": 14,
         "win": 2,
-        "loss": 7
+        "loss": 11
       },
       "division": {
         "name": "atlantic",
-        "rank": 4,
+        "rank": 5,
         "win": 2,
-        "loss": 7,
+        "loss": 11,
         "gamesBehind": "1.5"
       },
       "win": {
         "home": 2,
         "away": 1,
         "total": 2,
-        "percentage": "0.222",
+        "percentage": "0.154",
         "lastTen": 3
       },
       "loss": {
         "home": 0,
         "away": 2,
-        "total": 7,
-        "percentage": "0.778",
+        "total": 11,
+        "percentage": "0.846",
         "lastTen": 2
       },
       "gamesBehind": "1.5",
@@ -145,29 +145,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 15,
-        "win": 2,
-        "loss": 9
+        "rank": 13,
+        "win": 3,
+        "loss": 12
       },
       "division": {
         "name": "atlantic",
-        "rank": 5,
-        "win": 2,
-        "loss": 9,
+        "rank": 4,
+        "win": 3,
+        "loss": 12,
         "gamesBehind": "2"
       },
       "win": {
         "home": 2,
         "away": 0,
-        "total": 2,
-        "percentage": "0.182",
+        "total": 3,
+        "percentage": "0.200",
         "lastTen": 2
       },
       "loss": {
         "home": 0,
         "away": 2,
-        "total": 9,
-        "percentage": "0.818",
+        "total": 12,
+        "percentage": "0.800",
         "lastTen": 2
       },
       "gamesBehind": "2",
@@ -187,29 +187,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 7,
-        "win": 4,
-        "loss": 6
+        "rank": 12,
+        "win": 5,
+        "loss": 9
       },
       "division": {
         "name": "atlantic",
         "rank": 3,
-        "win": 4,
-        "loss": 6,
+        "win": 5,
+        "loss": 9,
         "gamesBehind": "2.5"
       },
       "win": {
         "home": 1,
         "away": 0,
-        "total": 4,
-        "percentage": "0.400",
+        "total": 5,
+        "percentage": "0.357",
         "lastTen": 1
       },
       "loss": {
         "home": 0,
         "away": 2,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 9,
+        "percentage": "0.643",
         "lastTen": 2
       },
       "gamesBehind": "2.5",
@@ -229,29 +229,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 10,
-        "win": 4,
-        "loss": 7
+        "rank": 7,
+        "win": 7,
+        "loss": 9
       },
       "division": {
         "name": "central",
-        "rank": 4,
-        "win": 4,
-        "loss": 7,
+        "rank": 2,
+        "win": 7,
+        "loss": 9,
         "gamesBehind": null
       },
       "win": {
         "home": 2,
         "away": 1,
-        "total": 4,
-        "percentage": "0.364",
+        "total": 7,
+        "percentage": "0.438",
         "lastTen": 3
       },
       "loss": {
         "home": 1,
         "away": 1,
-        "total": 7,
-        "percentage": "0.636",
+        "total": 9,
+        "percentage": "0.562",
         "lastTen": 2
       },
       "gamesBehind": null,
@@ -272,27 +272,27 @@
       "conference": {
         "name": "east",
         "rank": 9,
-        "win": 4,
-        "loss": 6
+        "win": 6,
+        "loss": 9
       },
       "division": {
         "name": "central",
-        "rank": 3,
-        "win": 4,
-        "loss": 6,
+        "rank": 4,
+        "win": 6,
+        "loss": 9,
         "gamesBehind": "0.5"
       },
       "win": {
         "home": 1,
         "away": 1,
-        "total": 4,
+        "total": 6,
         "percentage": "0.400",
         "lastTen": 2
       },
       "loss": {
         "home": 1,
         "away": 1,
-        "total": 6,
+        "total": 9,
         "percentage": "0.600",
         "lastTen": 2
       },
@@ -313,29 +313,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 14,
-        "win": 2,
-        "loss": 8
+        "rank": 11,
+        "win": 5,
+        "loss": 9
       },
       "division": {
         "name": "central",
         "rank": 5,
-        "win": 2,
-        "loss": 8,
+        "win": 5,
+        "loss": 9,
         "gamesBehind": "1"
       },
       "win": {
         "home": 1,
         "away": 0,
-        "total": 2,
-        "percentage": "0.200",
+        "total": 5,
+        "percentage": "0.357",
         "lastTen": 1
       },
       "loss": {
         "home": 1,
         "away": 1,
-        "total": 8,
-        "percentage": "0.800",
+        "total": 9,
+        "percentage": "0.643",
         "lastTen": 2
       },
       "gamesBehind": "1",
@@ -355,29 +355,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 3,
-        "win": 5,
-        "loss": 5
+        "rank": 8,
+        "win": 6,
+        "loss": 8
       },
       "division": {
         "name": "central",
-        "rank": 2,
-        "win": 5,
-        "loss": 5,
+        "rank": 3,
+        "win": 6,
+        "loss": 8,
         "gamesBehind": "1"
       },
       "win": {
         "home": 0,
         "away": 1,
-        "total": 5,
-        "percentage": "0.500",
+        "total": 6,
+        "percentage": "0.429",
         "lastTen": 1
       },
       "loss": {
         "home": 1,
         "away": 1,
-        "total": 5,
-        "percentage": "0.500",
+        "total": 8,
+        "percentage": "0.571",
         "lastTen": 2
       },
       "gamesBehind": "1",
@@ -398,20 +398,20 @@
       "conference": {
         "name": "east",
         "rank": 1,
-        "win": 11,
+        "win": 15,
         "loss": 0
       },
       "division": {
         "name": "central",
         "rank": 1,
-        "win": 11,
+        "win": 15,
         "loss": 0,
         "gamesBehind": "2"
       },
       "win": {
         "home": 0,
         "away": 0,
-        "total": 11,
+        "total": 15,
         "percentage": "1.000",
         "lastTen": 0
       },
@@ -440,28 +440,28 @@
       "conference": {
         "name": "east",
         "rank": 6,
-        "win": 4,
-        "loss": 5
+        "win": 6,
+        "loss": 7
       },
       "division": {
         "name": "southeast",
-        "rank": 2,
-        "win": 4,
-        "loss": 5,
+        "rank": 3,
+        "win": 6,
+        "loss": 7,
         "gamesBehind": null
       },
       "win": {
         "home": 3,
         "away": 0,
-        "total": 4,
-        "percentage": "0.444",
+        "total": 6,
+        "percentage": "0.462",
         "lastTen": 3
       },
       "loss": {
         "home": 0,
         "away": 1,
-        "total": 5,
-        "percentage": "0.556",
+        "total": 7,
+        "percentage": "0.538",
         "lastTen": 1
       },
       "gamesBehind": null,
@@ -481,29 +481,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 8,
-        "win": 4,
-        "loss": 6
+        "rank": 10,
+        "win": 5,
+        "loss": 8
       },
       "division": {
         "name": "southeast",
-        "rank": 3,
-        "win": 4,
-        "loss": 6,
+        "rank": 4,
+        "win": 5,
+        "loss": 8,
         "gamesBehind": "1"
       },
       "win": {
         "home": 1,
         "away": 1,
-        "total": 4,
-        "percentage": "0.400",
+        "total": 5,
+        "percentage": "0.385",
         "lastTen": 2
       },
       "loss": {
         "home": 1,
         "away": 1,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 8,
+        "percentage": "0.615",
         "lastTen": 2
       },
       "gamesBehind": "1",
@@ -523,29 +523,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 11,
-        "win": 4,
-        "loss": 7
+        "rank": 5,
+        "win": 7,
+        "loss": 8
       },
       "division": {
         "name": "southeast",
-        "rank": 4,
-        "win": 4,
-        "loss": 7,
+        "rank": 2,
+        "win": 7,
+        "loss": 8,
         "gamesBehind": "1.5"
       },
       "win": {
         "home": 1,
         "away": 0,
-        "total": 4,
-        "percentage": "0.364",
+        "total": 7,
+        "percentage": "0.467",
         "lastTen": 1
       },
       "loss": {
         "home": 1,
         "away": 1,
-        "total": 7,
-        "percentage": "0.636",
+        "total": 8,
+        "percentage": "0.533",
         "lastTen": 2
       },
       "gamesBehind": "1.5",
@@ -565,29 +565,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 12,
+        "rank": 15,
         "win": 2,
-        "loss": 6
+        "loss": 11
       },
       "division": {
         "name": "southeast",
         "rank": 5,
         "win": 2,
-        "loss": 6,
+        "loss": 11,
         "gamesBehind": "2"
       },
       "win": {
         "home": 1,
         "away": 0,
         "total": 2,
-        "percentage": "0.250",
+        "percentage": "0.154",
         "lastTen": 1
       },
       "loss": {
         "home": 0,
         "away": 3,
-        "total": 6,
-        "percentage": "0.750",
+        "total": 11,
+        "percentage": "0.846",
         "lastTen": 3
       },
       "gamesBehind": "2",
@@ -607,29 +607,29 @@
       },
       "conference": {
         "name": "east",
-        "rank": 4,
-        "win": 5,
+        "rank": 3,
+        "win": 9,
         "loss": 6
       },
       "division": {
         "name": "southeast",
         "rank": 1,
-        "win": 5,
+        "win": 9,
         "loss": 6,
         "gamesBehind": "2"
       },
       "win": {
         "home": 0,
         "away": 0,
-        "total": 5,
-        "percentage": "0.455",
+        "total": 9,
+        "percentage": "0.600",
         "lastTen": 0
       },
       "loss": {
         "home": 0,
         "away": 2,
         "total": 6,
-        "percentage": "0.545",
+        "percentage": "0.400",
         "lastTen": 2
       },
       "gamesBehind": "2",
@@ -650,28 +650,28 @@
       "conference": {
         "name": "west",
         "rank": 15,
-        "win": 2,
-        "loss": 7
+        "win": 3,
+        "loss": 10
       },
       "division": {
         "name": "northwest",
         "rank": 5,
-        "win": 2,
-        "loss": 7,
+        "win": 3,
+        "loss": 10,
         "gamesBehind": null
       },
       "win": {
         "home": 3,
         "away": 1,
-        "total": 2,
-        "percentage": "0.222",
+        "total": 3,
+        "percentage": "0.231",
         "lastTen": 4
       },
       "loss": {
         "home": 0,
         "away": 1,
-        "total": 7,
-        "percentage": "0.778",
+        "total": 10,
+        "percentage": "0.769",
         "lastTen": 1
       },
       "gamesBehind": null,
@@ -692,28 +692,28 @@
       "conference": {
         "name": "west",
         "rank": 1,
-        "win": 8,
-        "loss": 2
+        "win": 11,
+        "loss": 3
       },
       "division": {
         "name": "northwest",
         "rank": 1,
-        "win": 8,
-        "loss": 2,
+        "win": 11,
+        "loss": 3,
         "gamesBehind": "0.5"
       },
       "win": {
         "home": 1,
         "away": 2,
-        "total": 8,
-        "percentage": "0.800",
+        "total": 11,
+        "percentage": "0.786",
         "lastTen": 3
       },
       "loss": {
         "home": 1,
         "away": 0,
-        "total": 2,
-        "percentage": "0.200",
+        "total": 3,
+        "percentage": "0.214",
         "lastTen": 1
       },
       "gamesBehind": "0.5",
@@ -733,29 +733,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 14,
-        "win": 3,
+        "rank": 13,
+        "win": 6,
         "loss": 8
       },
       "division": {
         "name": "northwest",
         "rank": 4,
-        "win": 3,
+        "win": 6,
         "loss": 8,
         "gamesBehind": "1"
       },
       "win": {
         "home": 1,
         "away": 1,
-        "total": 3,
-        "percentage": "0.273",
+        "total": 6,
+        "percentage": "0.429",
         "lastTen": 2
       },
       "loss": {
         "home": 0,
         "away": 1,
         "total": 8,
-        "percentage": "0.727",
+        "percentage": "0.571",
         "lastTen": 1
       },
       "gamesBehind": "1",
@@ -775,29 +775,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 6,
-        "win": 6,
-        "loss": 4
+        "rank": 8,
+        "win": 8,
+        "loss": 6
       },
       "division": {
         "name": "northwest",
         "rank": 3,
-        "win": 6,
-        "loss": 4,
+        "win": 8,
+        "loss": 6,
         "gamesBehind": "1.5"
       },
       "win": {
         "home": 1,
         "away": 1,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 8,
+        "percentage": "0.571",
         "lastTen": 2
       },
       "loss": {
         "home": 0,
         "away": 2,
-        "total": 4,
-        "percentage": "0.400",
+        "total": 6,
+        "percentage": "0.429",
         "lastTen": 2
       },
       "gamesBehind": "1.5",
@@ -817,29 +817,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 4,
+        "rank": 6,
         "win": 7,
-        "loss": 3
+        "loss": 5
       },
       "division": {
         "name": "northwest",
         "rank": 2,
         "win": 7,
-        "loss": 3,
+        "loss": 5,
         "gamesBehind": "3.5"
       },
       "win": {
         "home": 0,
         "away": 0,
         "total": 7,
-        "percentage": "0.700",
+        "percentage": "0.583",
         "lastTen": 0
       },
       "loss": {
         "home": 3,
         "away": 1,
-        "total": 3,
-        "percentage": "0.300",
+        "total": 5,
+        "percentage": "0.417",
         "lastTen": 4
       },
       "gamesBehind": "3.5",
@@ -860,28 +860,28 @@
       "conference": {
         "name": "west",
         "rank": 2,
-        "win": 8,
-        "loss": 2
+        "win": 10,
+        "loss": 3
       },
       "division": {
         "name": "pacific",
         "rank": 1,
-        "win": 8,
-        "loss": 2,
+        "win": 10,
+        "loss": 3,
         "gamesBehind": null
       },
       "win": {
         "home": 2,
         "away": 3,
-        "total": 8,
-        "percentage": "0.800",
+        "total": 10,
+        "percentage": "0.769",
         "lastTen": 5
       },
       "loss": {
         "home": 0,
         "away": 0,
-        "total": 2,
-        "percentage": "0.200",
+        "total": 3,
+        "percentage": "0.231",
         "lastTen": 0
       },
       "gamesBehind": null,
@@ -901,29 +901,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 3,
-        "win": 8,
-        "loss": 2
+        "rank": 5,
+        "win": 9,
+        "loss": 6
       },
       "division": {
         "name": "pacific",
-        "rank": 2,
-        "win": 8,
-        "loss": 2,
+        "rank": 3,
+        "win": 9,
+        "loss": 6,
         "gamesBehind": "1.5"
       },
       "win": {
         "home": 0,
         "away": 3,
-        "total": 8,
-        "percentage": "0.800",
+        "total": 9,
+        "percentage": "0.600",
         "lastTen": 3
       },
       "loss": {
         "home": 1,
         "away": 0,
-        "total": 2,
-        "percentage": "0.200",
+        "total": 6,
+        "percentage": "0.400",
         "lastTen": 1
       },
       "gamesBehind": "1.5",
@@ -943,29 +943,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 9,
-        "win": 6,
-        "loss": 4
+        "rank": 10,
+        "win": 8,
+        "loss": 7
       },
       "division": {
         "name": "pacific",
-        "rank": 3,
-        "win": 6,
-        "loss": 4,
+        "rank": 4,
+        "win": 8,
+        "loss": 7,
         "gamesBehind": "1.5"
       },
       "win": {
         "home": 3,
         "away": 0,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 8,
+        "percentage": "0.533",
         "lastTen": 3
       },
       "loss": {
         "home": 1,
         "away": 0,
-        "total": 4,
-        "percentage": "0.400",
+        "total": 7,
+        "percentage": "0.467",
         "lastTen": 1
       },
       "gamesBehind": "1.5",
@@ -985,29 +985,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 10,
-        "win": 6,
+        "rank": 3,
+        "win": 9,
         "loss": 4
       },
       "division": {
         "name": "pacific",
-        "rank": 4,
-        "win": 6,
+        "rank": 2,
+        "win": 9,
         "loss": 4,
         "gamesBehind": "3.5"
       },
       "win": {
         "home": 0,
         "away": 1,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 9,
+        "percentage": "0.692",
         "lastTen": 1
       },
       "loss": {
         "home": 3,
         "away": 0,
         "total": 4,
-        "percentage": "0.400",
+        "percentage": "0.308",
         "lastTen": 3
       },
       "gamesBehind": "3.5",
@@ -1027,29 +1027,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 7,
-        "win": 6,
-        "loss": 4
+        "rank": 9,
+        "win": 8,
+        "loss": 7
       },
       "division": {
         "name": "pacific",
         "rank": 5,
-        "win": 6,
-        "loss": 4,
+        "win": 8,
+        "loss": 7,
         "gamesBehind": "4.5"
       },
       "win": {
         "home": 0,
         "away": 0,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 8,
+        "percentage": "0.533",
         "lastTen": 0
       },
       "loss": {
         "home": 2,
         "away": 2,
-        "total": 4,
-        "percentage": "0.400",
+        "total": 7,
+        "percentage": "0.467",
         "lastTen": 4
       },
       "gamesBehind": "4.5",
@@ -1069,29 +1069,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 5,
-        "win": 7,
-        "loss": 4
+        "rank": 7,
+        "win": 8,
+        "loss": 6
       },
       "division": {
         "name": "southwest",
-        "rank": 1,
-        "win": 7,
-        "loss": 4,
+        "rank": 2,
+        "win": 8,
+        "loss": 6,
         "gamesBehind": null
       },
       "win": {
         "home": 0,
         "away": 3,
-        "total": 7,
-        "percentage": "0.636",
+        "total": 8,
+        "percentage": "0.571",
         "lastTen": 3
       },
       "loss": {
         "home": 1,
         "away": 0,
-        "total": 4,
-        "percentage": "0.364",
+        "total": 6,
+        "percentage": "0.429",
         "lastTen": 1
       },
       "gamesBehind": null,
@@ -1111,29 +1111,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 8,
-        "win": 6,
-        "loss": 4
+        "rank": 4,
+        "win": 10,
+        "loss": 5
       },
       "division": {
         "name": "southwest",
-        "rank": 2,
-        "win": 6,
-        "loss": 4,
+        "rank": 1,
+        "win": 10,
+        "loss": 5,
         "gamesBehind": "0.5"
       },
       "win": {
         "home": 1,
         "away": 1,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 10,
+        "percentage": "0.667",
         "lastTen": 2
       },
       "loss": {
         "home": 0,
         "away": 1,
-        "total": 4,
-        "percentage": "0.400",
+        "total": 5,
+        "percentage": "0.333",
         "lastTen": 1
       },
       "gamesBehind": "0.5",
@@ -1154,28 +1154,28 @@
       "conference": {
         "name": "west",
         "rank": 12,
-        "win": 4,
-        "loss": 6
+        "win": 6,
+        "loss": 8
       },
       "division": {
         "name": "southwest",
         "rank": 4,
-        "win": 4,
-        "loss": 6,
+        "win": 6,
+        "loss": 8,
         "gamesBehind": "1"
       },
       "win": {
         "home": 2,
         "away": 0,
-        "total": 4,
-        "percentage": "0.400",
+        "total": 6,
+        "percentage": "0.429",
         "lastTen": 2
       },
       "loss": {
         "home": 1,
         "away": 1,
-        "total": 6,
-        "percentage": "0.600",
+        "total": 8,
+        "percentage": "0.571",
         "lastTen": 2
       },
       "gamesBehind": "1",
@@ -1195,29 +1195,29 @@
       },
       "conference": {
         "name": "west",
-        "rank": 13,
-        "win": 3,
-        "loss": 7
+        "rank": 14,
+        "win": 4,
+        "loss": 10
       },
       "division": {
         "name": "southwest",
         "rank": 5,
-        "win": 3,
-        "loss": 7,
+        "win": 4,
+        "loss": 10,
         "gamesBehind": "1.5"
       },
       "win": {
         "home": 1,
         "away": 0,
-        "total": 3,
-        "percentage": "0.300",
+        "total": 4,
+        "percentage": "0.286",
         "lastTen": 1
       },
       "loss": {
         "home": 0,
         "away": 2,
-        "total": 7,
-        "percentage": "0.700",
+        "total": 10,
+        "percentage": "0.714",
         "lastTen": 2
       },
       "gamesBehind": "1.5",
@@ -1238,27 +1238,27 @@
       "conference": {
         "name": "west",
         "rank": 11,
-        "win": 5,
-        "loss": 5
+        "win": 7,
+        "loss": 7
       },
       "division": {
         "name": "southwest",
         "rank": 3,
-        "win": 5,
-        "loss": 5,
+        "win": 7,
+        "loss": 7,
         "gamesBehind": "2.5"
       },
       "win": {
         "home": 0,
         "away": 0,
-        "total": 5,
+        "total": 7,
         "percentage": "0.500",
         "lastTen": 0
       },
       "loss": {
         "home": 2,
         "away": 1,
-        "total": 5,
+        "total": 7,
         "percentage": "0.500",
         "lastTen": 3
       },
@@ -1268,5 +1268,5 @@
       "tieBreakerPoints": null
     }
   ],
-  "lastUpdate": "11-11-2024 09:00:00"
+  "lastUpdate": "19-11-2024 09:00:00"
 }

@@ -41,7 +41,7 @@ const allowedOrigins = [
 ];
 
 const requestOptions = {
-  uri: "https://api-nba-v1.p.rapidapi.com/standings?league=standard&season=2025",
+  uri: "https://api-nba-v1.p.rapidapi.com/standings?league=standard&season=2026",
   method: "GET",
   headers: {
     "x-rapidapi-host": "api-nba-v1.p.rapidapi.com",

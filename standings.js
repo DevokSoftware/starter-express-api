@@ -127,11 +127,20 @@ function createStandingsService({ pool, fetchJson: loadJson = fetchJson, now = (
     );
     const cached = result.rows[0];
     if (cached && now().getTime() - new Date(cached.last_updated).getTime() < 60 * 60 * 1000) {
+      console.log("[standings] Serving cached standings", {
+        season, lastUpdate: cached.data.lastUpdate,
+      });
       return cached.data;
     }
     const url = `https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?season=${season + 1}&seasontype=2`;
+    console.log("[standings] Fetching ESPN standings", {
+      season, espnSeason: season + 1, reason: cached ? "cache expired" : "no cached data",
+    });
     const data = normalizeStandings(await loadJson(url), season, now());
     await pool.query("INSERT INTO standings (data) VALUES ($1)", [JSON.stringify(data)]);
+    console.log("[standings] Saved ESPN standings", {
+      season, teams: data.results, lastUpdate: data.lastUpdate,
+    });
     return data;
   };
 }

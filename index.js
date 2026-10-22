@@ -20,6 +20,15 @@ function createApp({ pool, fetchJson, now }) {
   }));
 
   app.get("/standings", async (req, res) => {
+    const startedAt = Date.now();
+    console.log("[standings] Request received", { season: req.query.season ?? 2026 });
+    res.once("finish", () => {
+      console.log("[standings] Request completed", {
+        season: req.query.season ?? 2026,
+        status: res.statusCode,
+        durationMs: Date.now() - startedAt,
+      });
+    });
     let season;
     try {
       season = parseSeason(req.query.season);
@@ -29,7 +38,7 @@ function createApp({ pool, fetchJson, now }) {
     try {
       res.send(await getStandings(season));
     } catch (error) {
-      console.error("Error fetching standings:", error);
+      console.error("[standings] Request failed", { season }, error);
       res.status(500).send({ error: "Failed to fetch standings" });
     }
   });

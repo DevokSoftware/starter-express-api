@@ -4,7 +4,9 @@ Serves NBA regular-season standings from ESPN's public JSON endpoint. No sports 
 
 ## Run
 
-Use Node.js 20 or newer. Install with `npm ci`, then run `npm start`.
+Use Node.js 24 LTS, pinned in `.node-version` and `package.json`. Install with `npm ci`, then run `npm start`.
+
+Render reads `.node-version` when selecting the runtime. If the service has a `NODE_VERSION` environment variable, remove it or set it to `24.22.1`, because it overrides the repository's version setting. Redeploy after applying these changes.
 
 Configure PostgreSQL using `DB_USER`, `DB_HOST`, `DB_NAME`, `DB_PASSWORD`, and optionally `DB_PORT` (defaults to 5432). Set `DB_SSL=false` for a local database without SSL. The server creates the existing `standings` table if needed and listens on `PORT` (defaults to 3001).
 
